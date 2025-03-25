@@ -1,6 +1,11 @@
 import os
 import mlflow
 from mlflow.tracking import MlflowClient
+from dotenv import load_dotenv
+
+load_dotenv()
+
+
 
 # Set tracking URI for Databricks
 mlflow.set_tracking_uri("databricks")

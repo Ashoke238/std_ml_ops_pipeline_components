@@ -1,6 +1,9 @@
 import os
 import time
 import requests
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Required environment variables
 DATABRICKS_HOST = os.getenv("DATABRICKS_HOST")

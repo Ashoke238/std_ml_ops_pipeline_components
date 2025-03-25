@@ -48,3 +48,6 @@ dist/
 .mypy_cache/
 .dmypy.json
 .pyre/
+
+#generted files
+run_id.txt
